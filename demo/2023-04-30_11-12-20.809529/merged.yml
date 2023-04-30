@@ -1,0 +1,22 @@
+---
+execution:
+- concurrency: 10
+  hold-for: 1m30s
+  ramp-up: 1m
+  scenario: simple
+modules:
+  blazemeter:
+    token: '********'
+reporting:
+- module: blazemeter
+  project: Taurus Tests Group
+  report-name: Jenkins Build 1
+  test: Taurus Demo
+  upload-artifacts: true
+scenarios:
+  simple:
+    requests:
+    - http://blazedemo.com/
+    - http://blazedemo.com/vacation.html
+    think-time: 0.75
+
