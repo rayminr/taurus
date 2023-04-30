@@ -48,6 +48,3 @@ $ curl https://a.blazemeter.com/api/v4/user --user '741b76d7794fac6eaecf8330:4e6
 
 参照以下配置：
 https://gettaurus.org/docs/BlazemeterReporter/
-modules:
-  blazemeter:
-    token: 741b76d7794fac6eaecf8330:4e63d0732f654fac5eef8b3617af0b325d8f751ff86fa6a8d28fca5b250f2abb7803a301
